@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS urls (
+    id CHAR(5) PRIMARY KEY,
+    url VARCHAR NOT NULL,
+    shorten_to VARCHAR
+);
